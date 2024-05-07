@@ -1,4 +1,4 @@
-package com.softtek.mayo07.servicio;
+package com.softtek.mayo07.CRUD;
 
 import java.util.List;
 

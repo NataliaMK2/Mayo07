@@ -1,8 +1,11 @@
-package com.softtek.mayo07.servicio;
+package com.softtek.mayo07.CRUD;
 
 import com.softtek.mayo07.repositorio.IGenericoRepositorio;
+
+import com.softtek.mayo07.CRUD.ICRUD;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.util.List;
 
 public abstract class CRUDimpl<T, ID> implements ICRUD<T, ID> {

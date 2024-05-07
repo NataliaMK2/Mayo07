@@ -1,10 +1,9 @@
-package com.softek.mayo07.servicio;
+package com.softtek.mayo07.servicio;
 
-import com.softtek.mayo07.servicio.CRUDimpl;
+import com.softtek.mayo07.CRUD.CRUDimpl;
 import com.softtek.mayo07.modelo.Producto;
 import com.softtek.mayo07.repositorio.IGenericoRepositorio;
 import com.softtek.mayo07.repositorio.ProductoRepositorio;
-import com.softtek.mayo07.servicio.IProductoServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
